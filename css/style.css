@@ -1,0 +1,101 @@
+@font-face {
+    font-family: recoleta;
+    src: url(../fonts/recoleta.zip)
+}
+
+
+body {
+    background-color: #e3f2fd;
+    font-family: recoleta;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 0.75em;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+input {
+
+    width: 125px;
+    height: 25px;
+    display: inline-block;
+
+}
+
+.form {
+
+
+    align-items: center;
+
+}
+
+.q1 {
+    margin-top: 2em;
+}
+
+.q2 {
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.name {
+    justify-content: space-around;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.send {
+    padding-top: 0.5em;
+}
+
+.gradient {
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 51, 147, 0.39), rgba(255, 185, 54, 0.363));
+    height: 40px;
+    padding-top: 0.5em;
+    border-style: hidden;
+    font-weight: bold;
+}
+
+.gradient:hover {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.548), rgba(232, 158, 20, 0.589));
+}
+
+
+.form {
+
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.animation {
+    width: 90px;
+    justify-content: center;
+    display: block;
+    animation: move 8s infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(1200px);
+    }
+}
+
+footer {
+    width: 100%;
+    height: 1em;
+    background-image: linear-gradient(rgba(135, 207, 235, 0.397), rgba(207, 142, 21, 0.297));
+}
